@@ -456,7 +456,7 @@ class _TabSwitchingViewState extends State<_TabSwitchingView>
   }
 
   DecoratedBox _buildScreens() => DecoratedBox(
-        decoration: const BoxDecoration(color: CupertinoColors.black),
+        decoration: const BoxDecoration(color: null),
         child: Stack(
           fit: StackFit.expand,
           children: List<Widget>.generate(widget.tabCount!, (final index) {
